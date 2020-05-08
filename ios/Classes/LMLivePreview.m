@@ -219,7 +219,7 @@
         _startLiveButton = [UIButton new];
         _startLiveButton.size = CGSizeMake(self.width - 60, 44);
         _startLiveButton.left = 30;
-        _startLiveButton.bottom = self.height - 50;
+        _startLiveButton.bottom = self.height - 100;
         _startLiveButton.layer.cornerRadius = _startLiveButton.height/2;
         [_startLiveButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_startLiveButton.titleLabel setFont:[UIFont systemFontOfSize:16]];
